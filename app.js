@@ -14,10 +14,6 @@ app.get('/login/load', function(req, res){
 });
 
 
-app.get('/login/index', function(req, res){
-  res.sendfile(defPath+'/login_index.html');
-});
-
 
 app.post('/login/index', function(req, res){
 
